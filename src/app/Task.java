@@ -23,7 +23,7 @@ public class Task {
             System.out.printf("%nYour tax is %s: %.2f",
                     CURRENCY, tax);
         }
-        else if(amountIncome > 25001){
+        else {
             tax = amountIncome / 100 * 6.7;
             System.out.print("Your tax rate is 6,7%");
             System.out.printf("%nYour tax is %s: %.2f",
